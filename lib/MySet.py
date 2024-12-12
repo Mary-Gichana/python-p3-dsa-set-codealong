@@ -13,5 +13,7 @@ class MySet:
         return self       
     def delete(self, value):
         self.dictionary.pop(value, None)
-        return self            
+        return self    
+    def size(self):
+        return len(self.dictionary)        
 
